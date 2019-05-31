@@ -91,9 +91,10 @@ nav {
     transition: all 0.5s ease-in-out ;
 }
 
-/* #navList a:active{
-    color: darkgray;
-} */
+a .active, .active {
+    
+    color: orangered;
+} 
 
 #navList a:hover {
     color: crimson;
@@ -292,4 +293,6 @@ footer nav a:hover {
     margin: 40px 0;
 }
 
+
+/*********************** B PAGE STYLING ********************/
 
