@@ -73,7 +73,7 @@ p {
 
 /************ Nav Styling **********/
 
-nav{
+nav {
     margin: 20px 0 40px;
 }
 
@@ -85,7 +85,7 @@ nav{
 }
 
 
-#navList a{
+#navList a {
     color:black;
     text-decoration: none;
     transition: all 0.5s ease-in-out ;
@@ -95,18 +95,18 @@ nav{
     color: darkgray;
 } */
 
-#navList a:hover{
+#navList a:hover {
     color: crimson;
 }
 
 
 /************ Header Styling **********/
 
-header{
+header {
     margin-bottom: 20px;
 }
 
-/************ Top Contnet Styling **********/
+/************ Top Contnet Styling ***********/
 
 .top-content {
     display: flex;
@@ -122,7 +122,7 @@ header{
     padding-bottom: 20px;  
 }
 
-/************ Middle Contnet Styling **********/
+/************ Middle Contnet Styling ***********/
 
 
 .middle-content {
@@ -152,49 +152,49 @@ header{
     justify-content: center;
 }
 
-/****** Box Colors ****/
+/****** Box Colors *****/
 
-#box1{
+#box1 {
     background: teal;
 }
 
-#box2{
+#box2 {
     background: gold;
 }
 
-#box3{
+#box3 {
     background: cadetblue;
 }
 
-#box4{
+#box4 {
     background: coral;
 }
 
-#box5{
+#box5 {
     background: crimson;
 }
 
-#box6{
+#box6 {
     background: forestgreen;
 }
 
-#box7{
+#box7 {
     background: darkorchid;
 }
 
-#box8{
+#box8 {
     background: hotpink;
 }
 
-#box9{
+#box9 {
     background: indigo;
 }
 
-#box10{
+#box10 {
     background: dodgerblue;
 }
 
-/************ Bottom Contnet Styling **********/
+/************ Bottom Contnet Styling ***********/
 
 .bottom-content {
     display: flex;
@@ -228,3 +228,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*********************** ABOUT PAGE STYLING ********************/
+
+/************ Middle Section Styling ***********/
+
+
+.aboutWrapper {
+    border-top: 1px dashed black;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutItems {
+    /* border-bottom: 1px dashed black; */
+    width: 50%;
+    padding: 10px;
+}
+
+.aboutItems h2 {
+    margin: 10px 0;
+}
+
+.learnMore {
+
+}
+
+
