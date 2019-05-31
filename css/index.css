@@ -71,6 +71,43 @@ p {
     margin: 0 auto;
 }
 
+/************ Nav Styling **********/
+
+nav{
+    margin: 20px 0 40px;
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; 
+    width: 100%;
+}
+
+
+#navList a{
+    color:black;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out ;
+}
+
+/* #navList a:active{
+    color: darkgray;
+} */
+
+#navList a:hover{
+    color: crimson;
+}
+
+
+/************ Header Styling **********/
+
+header{
+    margin-bottom: 20px;
+}
+
+/************ Top Contnet Styling **********/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +121,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/************ Middle Contnet Styling **********/
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -117,6 +157,9 @@ p {
     margin: 0 2% 20px;
     justify-content: space-around;
 }
+
+
+/************ Bottom Contnet Styling **********/
 
 .bottom-content .text-container {
     padding-right: 4%;
